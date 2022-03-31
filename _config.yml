@@ -1,0 +1,48 @@
+title: Awesome Open Data
+description: Una lista curada de recursos para estrategia, gobernanza y apertura de datos.
+logo: assets/images/logo.png
+
+include: ["_pages"]
+permalink: /:title/
+future: true
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 100
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [
+  README.md,
+  package.json,
+  grunt.js,
+  Gruntfile.js,
+  Gruntfile.coffee,
+  node_modules
+]

@@ -1,0 +1,30 @@
+---
+title: "Awesome Open Data"
+layout: default
+description: "Lista curada de recursos para la apertura de datos."
+permalink: /
+---
+<div class="container"></div>
+<div class="jumbotron jumbotron-fluid text-dark">
+  <div class="container">
+    <div class="container">
+      <h1 class="display-4">¡Bienvenid@!</h1>
+      <p class="lead">Este sitio contiene una lista creada por la <a target="_blank" href="http://slack.codeandomexico.org/">comunidad de Codeando México</a> y curada por distintos voluntarios con conocimiento en el tema de Datos Abiertos.</p>
+      <hr class="my-4">
+      <p><small>Este sitio es un proyecto colaborativo y abierto de <a href="https://www.codeandomexico.org/">Codeando México</a>. <br>¿Interesad@ en contribuir? <a href="https://github.com/CodeandoMexico/awesome-open-data">Aprende cómo</a>.</small></p>
+    </div>
+  </div>
+</div>
+
+<section class="mt-4 mb-5">
+  <div class="container mb-4">
+    <h2 class="font-weight-bold title">Recursos</h2>
+  </div>
+
+  <div class="container-fluid">
+    <div class="card-columns">        
+        {% for post in site.posts %}
+            {% include card-post.html %}
+        {% endfor %}            
+    </div>
+</section>
