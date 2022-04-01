@@ -13,7 +13,7 @@ layout: default
 		<br>
 		{{ content }}
 			{% for category in page.categories %}
-                <a class="btn btn-sm btn-indigo mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+                <a class="btn btn-sm btn-indigo mt-2" href="{{site.baseurl}}/categorias.html#{{ category | downcase }}">
                 	# {{ category | downcase }}
                 </a>
             {% endfor %}
