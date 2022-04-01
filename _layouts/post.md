@@ -12,6 +12,11 @@ layout: default
 		</nav>
 		<br>
 		{{ content }}
+			{% if page.visit %}
+                <p><a target="_blank" href="{{page.visit}}" class="btn btn-gray text-dark d-block font-weight-bold">
+                    Acceder al recurso <i class="fas fa-external-link-alt"></i></a>
+                </p>
+            {% endif %}
 			{% for category in page.categories %}
                 <a class="btn btn-sm btn-indigo mt-2" href="{{site.baseurl}}/categorias.html#{{ category | downcase }}">
                 	# {{ category | downcase }}
