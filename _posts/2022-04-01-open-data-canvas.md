@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: [ herramienta, documento ]
+visit: https://idatosabiertos.org/en/publicaciones/opendatacanvas/
 ---
 
 # Open Data Canvas
@@ -8,9 +9,6 @@ categories: [ herramienta, documento ]
 Un lienzo de datos abiertos para identificar los elementos necesarios dentro de una estrategia para la pertura de datos.
 
 - **Fecha:** 12/02/2019
-- **Tipo:** Herramienta
-- **Sitio web:** [idatosabiertos.org](https://idatosabiertos.org/en/)
-- **Recurso:** [Open Data Canvas](https://idatosabiertos.org/en/publicaciones/opendatacanvas/)
 
 #### Características
 
@@ -22,11 +20,13 @@ Un lienzo de datos abiertos para identificar los elementos necesarios dentro de 
 * Equipo
 * Impacto
 
-#### Contacto
+#### Autor
 
-Responsables del proyecto:
+Iniciativa Latinoamericana de Datos Abiertos
 
-- ILDA
+Sitio web:
+
+- [ILDA](https://idatosabiertos.org/en/)
 
 #### Licencia
 
